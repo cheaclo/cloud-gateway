@@ -10,7 +10,7 @@ spring:
         - id: CLOTHES-DATABASE
           uri: lb://CLOTHES-DATABASE
           predicates:
-            - Path=/save/**
+            - Path=/product/save
 eureka:
   client:
     register-with-eureka: true
