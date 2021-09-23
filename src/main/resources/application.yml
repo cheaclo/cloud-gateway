@@ -11,6 +11,11 @@ spring:
           uri: lb://CLOTHES-DATABASE
           predicates:
             - Path=/product/save
+        - id: USERS-DATABASE
+          uri: lb://USERS-DATABASE
+          predicates:
+            - Path=/user/**
+
 eureka:
   client:
     register-with-eureka: true
