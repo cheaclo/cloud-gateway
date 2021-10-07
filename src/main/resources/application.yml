@@ -11,6 +11,7 @@ spring:
           uri: lb://CLOTHES-DATABASE
           predicates:
             - Path=/product/save
+            - Path=/shop/all
         - id: USERS-DATABASE
           uri: lb://USERS-DATABASE
           predicates:
