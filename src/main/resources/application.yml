@@ -10,7 +10,7 @@ spring:
         - id: CLOTHES-DATABASE
           uri: lb://CLOTHES-DATABASE
           predicates:
-            - Path=/**
+            - Path=/clothes/**
         - id: USERS-DATABASE
           uri: lb://USERS-DATABASE
           predicates:
