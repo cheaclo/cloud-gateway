@@ -1,6 +1,6 @@
 # Cloud gateway microservice
 
-Project is a microservice, which is part of Cheaclo project. The cloud gateway, maps hostnames to one hostname
+Project is a microservice, which is part of [Cheaclo](https://github.com/cheaclo/about) project. The cloud gateway, maps hostnames to one hostname
 
 ## Tech stack
 
